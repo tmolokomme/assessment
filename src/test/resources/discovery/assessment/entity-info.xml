@@ -1,0 +1,42 @@
+<entity-info xmlns="discovery/assessment">
+	<entity no="101">
+		<name>John</name>
+		<surname>Doe</surname>
+	</entity>
+	<entity no="102">
+		<name>Jane</name>
+		<surname>Doe</surname>
+	</entity>
+	<entity no="103">
+		<name>Jill</name>
+		<surname>Doe</surname>
+	</entity>
+	<entity no="104">
+		<name>Jean</name>
+		<surname>Doe</surname>
+	</entity>
+	<entity no="105">
+		<name>Bill</name>
+		<surname>Doe</surname>
+	</entity>
+	<entity no="106">
+		<name>John</name>
+		<surname>Bloggs</surname>
+	</entity>
+	<entity no="107">
+		<name>Jack</name>
+		<surname>Bloggs</surname>
+	</entity>
+	<entity no="108">
+		<name>Bill</name>
+		<surname>Bloggs</surname>
+	</entity>
+	<entity no="109">
+		<name>John</name>
+		<surname>Deer</surname>
+	</entity>
+	<entity no="110">
+		<name>Jane</name>
+		<surname>Deer</surname>
+	</entity>
+</entity-info>

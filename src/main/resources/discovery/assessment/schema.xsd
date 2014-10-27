@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"  
+	targetNamespace="discovery/assessment"
+	xmlns="discovery/assessment"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	version="1.0">
+	
+	<xsd:element name="entity-info">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="entity" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="name" type="xsd:string" />
+							<xsd:element name="surname" type="xsd:string" />
+						</xsd:sequence>
+						<xsd:attribute name="no" use="required" type="xsd:long" />
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="entity-list">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="entity-no" type="xsd:long" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>
